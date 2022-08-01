@@ -1,0 +1,6 @@
+#f=open("shyam.txt","w")
+#print(f)
+#f.write("hi hello")
+f=open("mohan.txt","a")
+#f.write("kya bat hi")
+f.write("sahi bat hi")
