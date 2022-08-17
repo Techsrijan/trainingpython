@@ -3,6 +3,7 @@ import pymysql
 connection=pymysql.connect(user="root",host="127.0.0.1",db="engineer")
 print("connection established")
 
+
 mycursor=connection.cursor()
 #que="create table student_detail(name varchar(30), age int(3))"
 #mycursor.execute(que)
